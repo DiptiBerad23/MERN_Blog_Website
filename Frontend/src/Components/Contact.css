@@ -1,0 +1,97 @@
+/* ContactUs.css */
+.contact-page {
+    background: url('https://via.placeholder.com/1920x1080/2F4F4F/FFFFFF?text=Contact+Us') no-repeat center center/cover;
+    padding: 60px 0;
+    color: #fff;
+  }
+  
+  .contact-form {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  .subheading {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .form-control {
+    margin-bottom: 15px;
+    border-radius: 6px;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #ff6347;
+    border: none;
+    font-size: 1.1rem;
+  }
+  
+  .submit-btn:hover {
+    background-color: #ff4500;
+  }
+  
+  /* New section for Website Information */
+  .website-info {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
+    animation: fadeInUp 1.5s ease-in-out;
+  }
+  
+  .info-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .info-description {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  .info-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .info-list li {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+  
+  .social-media {
+    margin-top: 20px;
+  }
+  
+  .social-link {
+    color: #ff6347;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .social-link:hover {
+    text-decoration: underline;
+  }
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }      

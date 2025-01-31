@@ -1,0 +1,11 @@
+.nav-link {
+    transition: all 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #f04e23; /* Change color on hover */
+    text-decoration: underline; /* Add underline effect */
+    border-radius: 5px;
+  }
+
+    
